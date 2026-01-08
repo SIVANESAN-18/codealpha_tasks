@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Add Task</h2>
+
+  <input id="project" placeholder="Project name">
+  <input id="title" placeholder="Task title">
+  <input id="assigned" placeholder="Assign to user">
+
+  <select id="status">
+    <option value="To Do">To Do</option>
+    <option value="In Progress">In Progress</option>
+    <option value="Done">Done</option>
+  </select>
+
+  <button onclick="addTask()">Add Task</button>
+
+  <hr>
+
+  <button onclick="go('todo.html')">To Do</button>
+  <button onclick="go('progress.html')">In Progress</button>
+  <button onclick="go('done.html')">Done</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

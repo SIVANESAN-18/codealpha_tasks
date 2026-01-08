@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg,#4f46e5,#6366f1);
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+}
+
+button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card {
+  background: #f4f6fb;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
