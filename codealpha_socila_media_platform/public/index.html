@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Next Social App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login">
+  <h2>🚀 Social App Pro</h2>
+  <input id="username" placeholder="Username">
+  <button onclick="login()">Login</button>
+</div>
+
+<div class="app hidden">
+  <h3 id="welcome"></h3>
+
+  <input id="followUser" placeholder="Follow username">
+  <button onclick="follow()">Follow</button>
+
+  <textarea id="postText" placeholder="Create a post"></textarea>
+  <button onclick="createPost()">Post</button>
+
+  <div id="posts"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
